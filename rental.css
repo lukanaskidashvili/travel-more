@@ -1,0 +1,143 @@
+body {
+  background: radial-gradient(#2379dc, #cac3cf) ;
+  color: #777;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #373535;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+    position: relative;
+   right: 250px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+  color: #000000;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #5c5b5b;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+footer {
+  padding: 60px 0;
+  background-color: #f8fafa;
+}
+#footer-info {
+  width: 380px;
+  float: left;
+  margin-top: 10px;
+}
+#footer-links {
+  width: 520px;
+  float: right;
+}
+#footer-links ul {
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+#footer-links ul li {
+  margin: 10px 0;
+}

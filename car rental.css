@@ -1,0 +1,165 @@
+body {
+    background: radial-gradient(#2379dc, #cac3cf) ;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 45px;        
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #6d0c2e;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #02b8dd;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+    
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+} 
+.clear {
+    clear: both;
+}  
+#hero-image {
+    height: 580px;
+    padding-top: 1px;
+    background-image: url(https://www.chandigarhhelp.com/wp-content/uploads/2021/12/Top-Car-Rentals-in-Mohali.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#tbilisi-image {
+    background-image: url(https://img.autoabc.lv/Lexus-IS/Lexus-IS_2016_Sedans_211027114755_8.jpg);
+}
+
+#borjomi-image {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1642125192896-editors_images_1642074423673-Mercedes-Benz%2BC%2B180%2BAMG%2BLine%2B30%2Bfeatured.jpg);
+}
+#qobuleti-image {
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/mQWt2AO2SVBsTcTFyM4BWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/os/creatr-uploaded-images/2022-10/64609b80-4969-11ed-afec-2f62147a62e4);
+}
+#bakuriani-image {
+background-image: url(https://imgcdn.zigwheels.ae/medium/gallery/exterior/40/418/toyota-camry-18627.jpg);
+}
+#kazbegi-image {
+    background-image: url(https://audimediacenter-a.akamaihd.net/system/production/media/87623/images/ab698ab934ad7ee485d260ff1d2569be289629dc/A1915496_blog.jpg?1582587184);
+}
+#gonio-image{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/2021-alfa-romeo-giulia-mmp-1-1608226963.jpg);
+}
+#flex-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 450px;
+    margin-bottom:20px;
+}
+
+.city-text {
+    height: 230px;
+    width: 190px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .95);
+    padding: 20px;
+}
+.city-image {
+    height: 270px;
+    width: 230px;
+    background-color: red;
+    background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.more-link {
+    border: 1px solid #02b8dd;
+    color: #02b8dd;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.more-link:hover {
+    background-color: #02b8dd;
+    color: #fff;
+}
+
